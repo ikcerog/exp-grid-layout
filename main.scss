@@ -1,0 +1,176 @@
+$font-stack: Rocketsans, sans-serif;
+$primary-color: black;
+$paragraph-color: rebeccapurple;
+$congrad-background: conic-gradient(from 33.3deg, cyan, limegreen, magenta, yellow);
+$font-size-big: 2.4em;
+$font-size-responsive: calc(1.3vw + 1vh);
+
+body {
+	font: 100% $font-stack;
+	color: $primary-color;
+	background: linear-gradient(to top left, aliceblue, lightblue, deepskyblue);
+	background-attachment: fixed;
+	background-position: center left;
+	background-size: cover;
+	margin: 0;
+}
+
+span {
+	color: aliceblue;
+}
+
+#primaryContainer {
+	margin: 1em;
+	height: 100vh;
+	display: grid;
+	grid-gap: 1vw;
+  	grid-template-areas: 
+	    "header"
+	    "content"
+	    "sidebar"
+	    "ad"
+	    "footer";
+}
+
+.header, .nav, .main, .aside, .advert, .footer {
+	border: 2px solid black;
+	background: rgba(255, 99, 71, 0.6);
+}
+
+header {
+	height: 200px;
+	background-image: url(http://lorempixel.com/1280/480/technics/);
+	background-size: cover;
+}
+
+.header h1 {
+	font-size: 8em;
+	color: white;
+	font-family: Rocketsans;
+	overflow: hidden;
+}
+
+.header {
+	grid-area: header;
+	text-shadow: 0px 0px 5px #333;
+}
+
+.nav {
+	grid-area: nav;
+}
+
+.main {
+	grid-area: main;
+	background: #fffc;
+	padding: 1em;
+	border-radius: 3em;
+}
+
+.aside {
+	grid-area: aside;
+	border-radius: 1em;
+	overflow: hidden;
+}
+
+.aside img {
+	max-width: 400px;
+}
+
+.advert {
+	grid-area: advert;
+}
+
+.footer {
+	grid-area: footer;
+	padding: 3em;
+}
+
+div.floatLeft {
+	float: left;
+	margin: 1em;
+	border-radius: 10px;
+	max-width: 30vw;
+	height: 300px;
+	width: 600px;
+	font-size: 3em;
+	color: #red;
+	background-image: url(https://picsum.photos/g/600/300/?random);
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 499px) {
+	#primaryContainer {
+		display: inherit;
+	}
+	header h1 {
+		font-size: calc(4vw + 2vh) !important;
+	}
+	div.floatleft {
+		width: 90vw !important;
+	}
+	.header, .nav, .aside, .advert, .footer {
+		margin-bottom: 1em !important;
+		background: rgba(255, 99, 71, 0.6) !important;
+	}
+
+	.main {
+		margin-bottom: 1em !important;
+	}
+}
+
+@media (min-width: 500px) {
+	#primaryContainer {
+		grid-template-columns: 3fr 1fr;
+		grid-template-areas: 
+	      "header  header"
+	      "main    aside"
+	      "main    aside"
+	      "main    advert"
+	      "footer  footer";
+	}
+}
+
+@media (min-width: 700px) {
+	#primaryContainer {
+		grid-template-columns: 4fr 1fr;
+	    grid-template-areas: 
+	      "header header"
+	      "main aside"
+	      "main aside"
+	      "main advert"
+	      "footer footer"
+	}
+	nav ul {
+	    flex-direction: column;
+	}
+}
+
+@media (max-width: 860px) {
+	#primaryContainer {
+		grid-template-columns: 2fr 1fr !important;
+	}
+	.header h1 {
+		font-size: calc(2vw + 1vh);
+	}
+	.aside img, .advert img {
+		max-width: 100%;
+	}
+}
+
+.main p {
+	color: $paragraph-color;
+	font-size: $font-size-responsive;
+}
+
+.hoverFadeInOut {
+	transition: 0.3s;
+	opacity: 0.3;
+}
+
+.hoverFadeInOut:hover {
+	transform: rotate(710deg) scale(1.5);
+	transition: 0.3s;
+	border-radius: 50%;
+	opacity: 1;
+}
