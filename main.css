@@ -149,9 +149,9 @@ div.floatLeft {
 }
 
 .hoverFadeInOut:hover {
-  transform: rotate(710deg) scale(1.5);
+  transform: rotate(8deg) scale(1.1);
   transition: 0.3s;
-  border-radius: 50%;
+  border-radius: 10%;
   opacity: 1;
 }
 
