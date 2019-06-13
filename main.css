@@ -157,4 +157,29 @@ div.floatLeft {
   opacity: 1;
 }
 
+@font-face {
+  font-display: swap;
+  font-family: RocketSans;
+  src: url(https://www.rockomni.com/mcds/assets/GlobalContent/NonStockImages/Fonts/RocketSans-Bold.woff2) format("woff2"), url(https://www.rockomni.com/mcds/assets/GlobalContent/NonStockImages/Fonts/RocketSans-Bold.woff) format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-family: RocketSans;
+  src: url(https://www.rockomni.com/mcds/assets/GlobalContent/NonStockImages/Fonts/RocketSans-Medium.woff2) format("woff2"), url(https://www.rockomni.com/mcds/assets/GlobalContent/NonStockImages/Fonts/RocketSans-Medium.woff) format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-family: RocketSans;
+  src: url(https://www.rockomni.com/mcds/assets/GlobalContent/NonStockImages/Fonts/RocketSans-Regular.woff2) format("woff2"), url(https://www.rockomni.com/mcds/assets/GlobalContent/NonStockImages/Fonts/RocketSans-Regular.woff) format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-family: RocketSans;
+  src: url(https://www.rockomni.com/mcds/assets/GlobalContent/NonStockImages/Fonts/RocketSans-Light.woff2) format("woff2"), url(https://www.rockomni.com/mcds/assets/GlobalContent/NonStockImages/Fonts/RocketSans-Light.woff) format("woff");
+  font-weight: 300;
+}
+
 /*# sourceMappingURL=main.css.map */
