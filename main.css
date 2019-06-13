@@ -25,9 +25,9 @@ span {
   background: rgba(255, 99, 71, 0.6);
 }
 
-header {
+div.header {
   height: 200px;
-  background-image: url("http://lorempixel.com/1280/480/technics/") !important;
+  background-image: url("https://picsum.photos/1500/300/?blur=3") !important;
   background-size: cover !important;
 }
 
