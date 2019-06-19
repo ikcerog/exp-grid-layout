@@ -56,9 +56,9 @@ div.header {
 }
 
 .header .emoji {
-	-webkit-animation: emojiNeon1 1.5s ease-in-out infinite alternate;
-  	-moz-animation: emojiNeon1 1.5s ease-in-out infinite alternate;
-  	animation: emojiNeon1 1.5s ease-in-out infinite alternate;
+	-webkit-animation: emojiNeon1 1s ease-in-out infinite alternate;
+  	-moz-animation: emojiNeon1 1s ease-in-out infinite alternate;
+  	animation: emojiNeon1 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes emojiNeon1 {
@@ -69,8 +69,8 @@ div.header {
                0 0 40px #37ff00,
                0 0 70px #37ff00,
                0 0 80px #37ff00,
-               0 0 100px #37ff00,
-               0 0 150px #37ff00;
+               0 0 90px #37ff00,
+               0 0 100px #37ff00;
   }
   to {
     text-shadow: 0 0 5px #fff,
@@ -92,8 +92,8 @@ div.header {
                0 0 40px #37ff00,
                0 0 70px #37ff00,
                0 0 80px #37ff00,
-               0 0 100px #37ff00,
-               0 0 150px #37ff00;
+               0 0 90px #37ff00,
+               0 0 100px #37ff00;
   }
   to {
     text-shadow: 0 0 5px #fff,
@@ -115,8 +115,8 @@ div.header {
                0 0 40px #37ff00,
                0 0 70px #37ff00,
                0 0 80px #37ff00,
-               0 0 100px #37ff00,
-               0 0 150px #37ff00;
+               0 0 90px #37ff00,
+               0 0 100px #37ff00;
   }
   to {
     text-shadow: 0 0 5px #fff,
