@@ -5,8 +5,6 @@ $congrad-background: conic-gradient(from 33.3deg, cyan, limegreen, magenta, yell
 $font-size-big: 2.4em;
 $font-size-responsive: calc(1.3vw + 1vh);
 
-@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe&display=swap');
-
 body {
 	font: 100% $font-stack;
 	color: $primary-color;
@@ -178,6 +176,8 @@ div.floatLeft {
 	border-radius: 10%;
 	opacity: 1;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe&display=swap');
 
 @font-face {
 			font-display: swap;
