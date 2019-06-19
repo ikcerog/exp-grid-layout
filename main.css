@@ -55,7 +55,7 @@ div.header {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 60px #37ff00, 0 0 7px #37ff00, 0 0 80px #37ff00;
   }
   to {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 60px #37ff00, 0 0 7px #37ff00, 0 0 80px #37ff00;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #37ff00, 0 0 35px #37ff00, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 75px #37ff00;
   }
 }
 @-moz-keyframes emojiNeon1 {
@@ -63,7 +63,7 @@ div.header {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 60px #37ff00, 0 0 7px #37ff00, 0 0 80px #37ff00;
   }
   to {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 60px #37ff00, 0 0 7px #37ff00, 0 0 80px #37ff00;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #37ff00, 0 0 35px #37ff00, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 75px #37ff00;
   }
 }
 @-webkit-keyframes emojiNeon1 {
@@ -71,7 +71,7 @@ div.header {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 60px #37ff00, 0 0 7px #37ff00, 0 0 80px #37ff00;
   }
   to {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 60px #37ff00, 0 0 7px #37ff00, 0 0 80px #37ff00;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #37ff00, 0 0 35px #37ff00, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 75px #37ff00;
   }
 }
 .nav {
