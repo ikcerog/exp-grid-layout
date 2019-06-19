@@ -2,9 +2,9 @@
 body {
   font: 100% Rocketsans, sans-serif;
   color: black;
-  background: linear-gradient(to top left, aliceblue, lightblue, deepskyblue);
+  background: url("../img/trianglify-bg.png");
   background-attachment: fixed;
-  background-position: center left;
+  background-position: center center;
   background-size: cover;
   margin: 0;
 }
